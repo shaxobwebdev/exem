@@ -1,0 +1,206 @@
+.corn {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin: 23px;
+  margin-top: 65px;
+  padding: 0px 30px 0px 0px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+}
+.corn h5 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+.conr .corn a {
+  text-decoration: none;
+  list-style: none;
+  color: #ffffff;
+}
+.corn ul li a {
+  padding: 10px;
+  color: #ffffff;
+  text-decoration: none;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.corn ul li {
+  /* margin-top: 5px;
+    margin-bottom: 5px; */
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+}
+
+.corn ul {
+  list-style: none;
+}
+
+.futer-cheron {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  height: 100%;
+  width: 100%;
+  background: #16697a;
+  flex: none;
+  order: 7;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.nevus {
+  width: 321px;
+  color: #ffffff;
+  flex: none;
+  order: 4;
+  flex-grow: 0;
+}
+.nevus li {
+  text-decoration: none;
+  list-style: none;
+}
+.nevus a {
+  text-decoration: none;
+  list-style: none;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.nevus h5 {
+  margin-top: 20px;
+}
+.nevus img {
+  padding-top: 5px;
+}
+.section-input {
+  width: 100%;
+  height: 405px;
+  margin: 0 auto;
+  background: #ffff;
+
+  flex: none;
+  order: 6;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.ses {
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.get {
+  margin: 0 50%;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 15px 40px;
+  gap: 10px;
+
+  width: 163px;
+  height: 58px;
+  left: 639px;
+  top: 595px;
+
+  background: white;
+  border-radius: 5px;
+}
+
+.contaner {
+  max-width: 1064px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.figt {
+  margin-top: 50px;
+  margin-bottom: -20px;
+  display: block;
+  margin-left: 79px;
+  width: 100%;
+  height: 40px;
+}
+
+.figt-dot {
+  margin-top: 50px;
+  margin-bottom: -20px;
+  display: block;
+  margin-left: 79px;
+  width: 100%;
+  height: 150px;
+}
+
+.input-hiz {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 20px;
+  padding-top: 20px;
+  width: 1050px;
+  height: 436px;
+  left: 195px;
+  top: 100px;
+}
+
+.costom-imput {
+  margin: 15px 0;
+  display: block;
+  width: 100%;
+  height: 50px;
+  padding: 15px 15px;
+}
+
+.figt-dot {
+  width: 100%;
+  margin: 0;
+}
+
+.exit {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.pass {
+  margin-right: 0px;
+  padding-right: 30px;
+}
+
+.herop {
+  height: 68px;
+  background-color: #ffffff;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="checkbox"]:checked ~ span:nth-of-type(1) {
+  transform-origin: bottom;
+  transform: rotatez(45deg) translate(8px, 0px);
+}
+
+input[type="checkbox"]:checked ~ span:nth-of-type(2) {
+  transform-origin: top;
+  transform: rotatez(-45deg);
+}
+
+input[type="checkbox"]:checked ~ span:nth-of-type(3) {
+  transform-origin: bottom;
+  width: 50%;
+  transform: translate(30px, -11px) rotatez(45deg);
+}
+
+.footer-bus {
+  background-color: #16697a;
+  height: 307px;
+  display: inline-block;
+  width: 100%;
+}
